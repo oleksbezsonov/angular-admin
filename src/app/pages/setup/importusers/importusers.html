@@ -1,0 +1,111 @@
+<div class="animated fadeIn">
+    <div class="row usergroup-fix panel-default">
+        <div class="usergroup-block"></div>
+        <div class="col col-md-12">
+            <div class="col-md-6">
+                <div class="row">
+                    <h1 class="usergroup-block usergroup-color-black">User Management</h1>
+                    <h4 class="usergroup-block usergroup-color-black">User & Group</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    </div>
+    <div class="row usergroup-fix">
+        <!-- Fist Sector -->
+        <div class="col-md-12">
+            <div class="usergroup-block"><div class="usergroup-block"></div></div>
+            <accordion>
+                <i class = "fa {{icon_accordion1}} fa-lg float-right card-header  usergroup-color-black"></i>
+                <accordion-group  heading="Import Users" (click)="OnAccordionClick(1)" panel-class="bootstrap-panel accordion-panel panel-default">
+                    <div class="col col-md-12">
+                        <!-- Left Side -->
+                        <div class="col-md-4 usergroup-block">
+                            <div class="usergroup-block row">
+                                <div class="usergroup-block col-md-12">
+                                    <p class="usergroup-color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sedornare nulla. Nullam quis risus eget urna mollis ornare vel eu leo.Cum sociis natoque penatibus et magnis.
+                                    </p>
+                                </div>
+                                <div class="usergroup-block col-md-12">
+                                    <span class="usergroup-color-black">Eu non nec cursus quis mollis, amet quam nec</span>
+                                </div>
+                                <div class="usergroup-block col-md-12">
+                                    <button type="button" class="btn btn-primary btn-with-icon">
+                                        <i class="ion-android-download"></i>
+                                        <span> Template </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Right Side -->
+                        <div class="col-md-8 usergroup-block">
+                            <style>
+                                .file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+                            </style>
+                            
+                            <div ngFileDrop
+                                class ="usergroup-borderline"
+                                [options]="options"
+                                (onUpload)="handleUpload($event)"
+                                [ngClass]="{'file-over': hasBaseDropZoneOver}"
+                                (onFileOver)="fileOverBase($event)">
+                                <div>
+                                    <h1 class="usergroup-center-text usergroup-color-grey">Drop File Here</h1>
+                                </div>
+                            </div>
+                            <div>
+                            <!-- Response: {{ response | json }} -->
+                            </div>
+                        </div>
+                    </div>
+                </accordion-group>
+            </accordion>
+        </div>
+        <!-- Second Sector -->
+        <div class="col-md-12">
+            <accordion>
+                <i class = "fa {{icon_accordion2}} fa-lg float-right card-header  usergroup-color-black"></i>
+                <accordion-group  heading="Verify Import" (click)="OnAccordionClick(2)" panel-class="bootstrap-panel accordion-panel panel-default">
+                    <div class="col col-md-12">
+                        <div class="row">
+                            <!-- Start First Sector -->
+                            <div class="col col-md-12 usergroup-block">
+                                <div class="float-left col-md-3 ">
+                                    <select class="form-control usergroup-fill-all usergroup-color-black usergroup-border">
+                                        <option>Filter Type</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                                <div class="float-right col-md-3">
+                                     <div class="input-group usergroup-fill-all usergroup-color-black  usergroup-border">
+                                        <input type="text" class="form-control  usergroup-color-black" placeholder="Search">
+                                        <span class="input-group-btn usergroup-color-black">
+                                        <button class="btn btn-primary">
+                                            GO
+                                        </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Start Second Sector -->
+                            <div class="col-md-12 usergroup-block">
+                                <div class="usergroup-block widgets">
+                                    <div class="usergroup-block row" >
+                                        <div class ="usergroup-overflow-y">
+                                        <ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)"></ng2-smart-table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </accordion-group>
+            </accordion>
+        </div>
+    </div>
+</div>

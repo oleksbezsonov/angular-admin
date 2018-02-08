@@ -1,0 +1,143 @@
+.ellipse_A{
+	margin: 5px;
+	border-radius: 20px;
+	background-color: #5bc0de;
+	color: #ffffff;
+}
+
+.search-tool{
+	padding: 10px;
+}
+
+.search-box{
+	float: right;
+}
+
+.modal-content h4{
+	color: #2F353B;
+}
+
+.modal-content label{
+	color: #BFBFBF;
+}
+
+.modal-body{
+	background-color: #FAFAFA;
+	border:1px solid #FAFAFA;
+}
+
+.photo_content{
+	margin: auto;
+	width: 80px;
+	height: 80px;	
+}
+
+.circle_photo{
+	cursor: pointer;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    border-radius: 40px;
+    border:1px solid #E5E5E5;
+}
+
+.card{
+	background-color: #ffffff;
+	border-radius: 0px;
+}
+
+.card-header{
+	border-bottom: 1px solid #BFBFBF; 
+	background-color: #ffffff;
+}
+
+.table > thead > tr > th {
+	border-top: 1px solid #ffffff; 
+	border-bottom: 3px solid #BFBFBF; 
+	color: #BFBFBF;
+}
+
+.table > tbody > tr > td {
+	border-top: 1px solid #BFBFBF; 
+	border-bottom: 1px solid #BFBFBF; 
+	color: #2F353B;
+}
+
+.pagination > li > a,
+.pagination > li > span{
+  color: #BFBFBF;
+  border-color: #BFBFBF;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #3598DC!important;
+  border-color: $border!important;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus{
+  background-color: rgba(0,0,0,.2);
+  color: #3598DC;
+}
+
+.content-header{
+	padding: 30px;
+	margin: 0px;
+	color: #2F353B;
+	height: 120px;
+	position: fixed;
+    z-index: 1000;
+    width: 85%;
+  	background-color: #ffffff;
+  	border:1px solid #bfbfbf;
+}
+
+.al-content {
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+.content-body{
+	padding: 150px 32px 0 40px;
+	background-color: lightgray;
+
+}
+
+.btn_box{
+	margin-top: 15px;
+}
+
+.label_date{
+	color: #bfbfbf;
+	float: left;
+	padding: 10px;
+}
+
+.btnpicker{
+	border-left: 1px solid #bfbfbf!important;
+}
+
+.green_cal .icon-mydpcalendar{
+	color: #8bd22f;
+}
+
+.red_cal .icon-mydpcalendar{
+	color: #f95372;
+}
+
+.blur .page-top.scrolled {
+    background-color: #ffffff!important;
+}
+
+.pagination_box{
+	float: right;
+	margin-right: 15px;
+}

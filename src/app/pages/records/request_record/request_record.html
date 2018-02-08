@@ -1,0 +1,385 @@
+<div class="animated fadeIn">
+    <div class="row record-fix panel-default">
+        <div class="record-block"></div>
+        <div class="col col-md-12">
+            <div class="col-md-6">
+                <div class="row">
+                    <h1 class="record-block record-color-black">Request Record</h1>
+                    <h4 class="record-block record-color-black">Request / Bill of Landing Name/#</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="usergroup-block col-md-12">
+                    <div class="row">
+                        <div class="record-block"></div>
+                        <div class="record-block"></div>
+                        <button type="button" class="btn btn-primary btn-with-icon float-right"><i class="ion-android-download"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div class="row record-fix">
+<!-- Start Left Side -->
+    <div class="col-md-6">
+        <div class = "row record-fix col-md-12">
+            <div class="record-block"><div class="record-block"></div></div>
+            
+            <div>
+                <accordion class="record-color-black">
+                    <i class = "fa {{icon_accordion1}} fa-lg float-right card-header record-color-black"></i>
+                    <accordion-group  heading="Bill of Landing Name/#" (click)="OnAccordionClick(1)" panel-class="bootstrap-panel accordion-panel panel-default">
+                        <div class="row record-fix">
+                            <div class="record-requset-pic">
+                                    <img src="assets/img/dosel.png" alt="dosel">
+                            </div>
+                            <div class="record-spacing-small">
+                            </div>
+                            <!-- Start Title -->
+                            <div class="record-block">
+                                <div class="row record-fix">
+                                    <div class="col-md-6">
+                                        <div class="col">
+                                            <h3><strong class="record-color-light-grey">Name</strong></h3>
+                                            <h4><span class="record-color-light-blue">Equipment Name Example</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="record-block">
+                                <div class="row record-fix">
+                                    <div class="col-md-6">
+                                        <div class="col">
+                                            <h3><strong class="record-color-light-grey">Cartgory</strong></h3>
+                                            <h4><span class="record-color-light-blue">Lifting$ Material Hadling</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col">
+                                            <h3><strong class="record-color-light-grey">Type</strong></h3>
+                                            <h4><span class="record-color-light-blue">Hydraulic Truck Carne</span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="record-block">
+                                <div class="row record-fix">
+                                    <div class="col-md-4">
+                                        <div class="col">
+                                            <h3><strong class="record-color-light-grey">Mark</strong></h3>
+                                            <h4><span class="record-color-light-blue">John Deer</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="col">
+                                            <h3><strong class="record-color-light-grey">Model</strong></h3>
+                                            <h4><span class="record-color-light-blue">Super Cran 10000</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="col">
+                                            <h3><strong class="record-color-light-grey">Permit</strong></h3>
+                                            <h4><span class="record-color-light-blue">No</span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Title -->
+                            <div class="record-block record-spacing-small">
+                            </div>
+                            <div class="record-requset-pic">
+                                <img src="assets/img/dosel.png" alt="dosel">
+                            </div>
+                            <!-- Start Title -->
+                            <div class="record-block record-spacing-small">
+                            </div>
+                            <div class="record-block col col-md-12">
+                                <div class="row record-fix">
+                                    <div class="col-md-6">
+                                        <div class="row record-fix">
+                                            <div class="col-md-1">   
+                                                <i class="fa fa-truck fa-lg record-color-black"></i>
+                                            </div>
+                                            <div class="col col-md-10">
+                                                <h3><strong class="record-color-light-grey">2010 Mark Model</strong></h3>
+                                                <h4><span class="record-color-black">#0000001</span></h4>
+                                                <h4><span class="record-color-black">Ohio</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col">
+                                            <h3><strong class="record-color-light-grey">Double Drop Deck Type</strong></h3>
+                                            <div><span></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!--           <div class="record-spacing-small"></div> -->
+                            </div>
+                            <div class="record-block record-spacing-small">
+                            </div>
+                        </div><!--row end-->
+                        <!-- End Title -->
+                    </accordion-group>
+                </accordion>  
+            </div>
+            <div>
+                <accordion>
+                    <i class = "fa {{icon_accordion2}} fa-lg float-right card-header record-color-black"></i>
+                    <accordion-group  heading="Request Route" (click)="OnAccordionClick(2)" panel-class="bootstrap-panel accordion-panel panel-default">
+                        <div ng-include="../../maps/components/googleMaps/googleMaps.html">
+                        </div>
+                    </accordion-group>
+                </accordion>
+            </div>
+        </div>
+    </div>
+<!-- End Left Side -->
+
+<!-- Start Right Side -->
+    <div class="col-md-6">
+        <div class = "row record-fix col-md-12">
+            <div class="record-block"><div class="record-block"></div></div>
+            <div>
+                <accordion>
+                    <i class = "fa {{icon_accordion3}} fa-lg float-right card-header record-color-black"></i>
+                    <accordion-group  heading="Request Details" (click)="OnAccordionClick(3)" panel-class="bootstrap-panel accordion-panel panel-default">
+                        <div class = "col">
+                            <!-- Start Sector 1 -->
+                            <div class="record-block record-bottom-line">
+                                <div class="row record-fix">
+                                    <div class="col-md-8">
+                                        <h3 class="record-color-black"><strong>Standary Priority</strong></h3>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <rating style="color:yellow" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="float-right rating"></rating>
+                                            <!-- <span class="help-block">Rate: {{_rate1}}</span> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector 2 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="col-md-6">
+                                    <div class="row record-fix">
+                                        <div class="col-md-2">   
+                                            <div class="record-requset-pic-small">
+                                                <img src="assets/img/theme/icon/kameleon/Makeup.svg" alt="pdf">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-10">
+                                            <h3><strong class="record-color-light-blue">File Name.pdf</strong></h3>
+                                            <span class="record-color-black">2-13-17 2:45pm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row record-fix">
+                                        <div class="col-md-2">   
+                                            <div class="record-requset-pic-small">
+                                                <img src="assets/img/theme/icon/kameleon/Images.svg" alt="pdf">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-10">
+                                            <h3><strong class="record-color-light-blue">File Name.pdf</strong></h3>
+                                            <span class="record-color-black">2-13-17 2:45pm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector 3 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="col-md-6">
+                                    <h3><strong class = "record-color-light-grey">Request Details</strong></h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3><strong class = "record-color-light-grey">Performance Data</strong></h3>
+                                </div>
+                            </div>
+                            <!-- Start Sector 4 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="row record-fix">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <h4><span class="record-badge record-badge-error">Pending</span></h4>
+                                        </div>
+                                            <div class="col-md-6">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12  {{hide_pending}}">
+                                        <div class="col-md-6">
+                                            <div class="col">
+                                                <h4><span class="record-color-light-grey">Request Made:</span></h4>
+                                                <h4><span class="record-color-black">02/21/17 @ 2:10 PM</span></h4>
+                                                <h4><span class="record-color-light-blue">Join Smith</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <i class="ion-close-round record-color-black" (click)="hideItemPending($event)"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector 5 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="row record-fix">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <h4><span class="record-badge record-badge-normal">Scheduled</span></h4>
+                                        </div>
+                                            <div class="col-md-6">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 {{hide_scheduled}}">
+                                        <div class="col-md-6">
+                                            <div class="col">
+                                                <h4><span class="record-color-light-grey">Accepted By:</span></h4>
+                                                <h4><span class="record-color-black">Towing Company Example</span></h4>
+                                                <h4><span class="record-color-black">02/21/17 @ 2:10 PM</span></h4>
+                                                <h4><span class="record-color-light-grey">Driver:</span></h4>
+                                                <h4><span class="record-color-black">Join Smith</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <i class="ion-close-round record-color-black" (click)="hideItemScheduled($event)"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector 6 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="row record-fix">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <h4><span class="record-badge record-badge-warning">Dispatched</span></h4>
+                                        </div>
+                                            <div class="col-md-6">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 {{hide_dispatched}}">
+                                        <div class="col-md-6">
+                                            <i class="ion-close-round record-color-black" (click)="hideItemDispatched($event)"></i>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="col">
+                                                <h4><span class="record-color-light-grey">Accepted By:</span></h4>
+                                                <h4><span class="record-color-black">Towing Company Example</span></h4>
+                                                <h4><span class="record-color-black">02/21/17 @ 2:10 PM</span></h4>
+                                                <h4><span class="record-color-light-grey">Driver:</span></h4>
+                                                <h4><span class="record-color-black">Join Smith</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector 7 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="row record-fix">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <h4><span class="record-badge record-badge-warning-light">En Route</span></h4>
+                                        </div>
+                                            <div class="col-md-6">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <div class="col">
+                                                <h4><span class="record-color-black">02/23/17 @ 8:30 AM</span></h4>
+                                                <h4><span class="record-color-light-blue">400 Nationwide Bivd</span></h4>
+                                                <h4><span class="record-color-light-blue">Columbus, Ohio 43215</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="col">
+                                                <h4><span class="record-color-black">02/23/17 @ 8:30 AM</span></h4>
+                                                <h4><span class="record-color-light-blue">400 Nationwide Bivd</span></h4>
+                                                <h4><span class="record-color-light-blue">Columbus, Ohio 43215</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector 8 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="row record-fix">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <h4><span class="record-badge record-badge-complete">Complete</span></h4>
+                                        </div>
+                                            <div class="col-md-6">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <div class="col">
+                                                <h4><span class="record-color-black">02/23/17 @ 9:30 AM</span></h4>
+                                                <h4><span class="record-color-light-blue">656 Thurber Dr. W</span></h4>
+                                                <h4><span class="record-color-light-blue">Columbus, Ohio 43215</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="col">
+                                                <h4><span class="record-color-black">02/23/17 @ 9:30 AM</span></h4>
+                                                <h4><span class="record-color-light-blue">656 Thurber Dr. W</span></h4>
+                                                <h4><span class="record-color-light-blue">Columbus, Ohio 43215</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector End -->
+
+                        </div>
+                    </accordion-group>
+                </accordion>
+            </div>
+            <div>
+                <accordion>
+                    <i class = "fa {{icon_accordion4}} fa-lg float-right card-header record-color-black"></i>
+                    <accordion-group  heading="Bill" (click)="OnAccordionClick(4)" panel-class="bootstrap-panel accordion-panel panel-default">
+                        <div class = "col">
+                            <!-- Start Sector 1 -->
+                            <div class="record-block record-bottom-line">
+                                <div class="row record-fix">
+                                    <div class="col-md-8">
+                                        <h3 class="record-color-black">Intelli-Tow invoice</h3>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h1 class="record-color-black">$1,200.000</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Sector 2 -->
+                            <div class="record-block record-bottom-line col col-md-12">
+                                <div class="col-md-12 record-block">
+                                    <h4 class="record-color-light-grey">Full Invoice</h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row record-fix">
+                                        <div class="col-md-2">   
+                                            <div class="record-requset-pic">
+                                                <img src="assets/img/theme/icon/kameleon/Makeup.svg" alt="pdf">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-10">
+                                            <h3><strong class="record-color-light-blue">File Name.pdf</strong></h3>
+                                            <span class="record-color-black">2-13-17 2:45pm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                </div>
+                            </div>
+                            <!-- Start Sector End -->
+
+                        </div>
+                    </accordion-group>
+                </accordion>
+            </div>
+        </div>
+    </div>
+ <!-- End Right Side -->   
+</div>

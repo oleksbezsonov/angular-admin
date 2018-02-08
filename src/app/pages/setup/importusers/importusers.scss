@@ -1,0 +1,70 @@
+
+.animated.fadeIn {
+    padding: 0px;    
+}
+
+.usergroup-spacing-small{
+    width: 100%;
+    height: 2vh;
+}
+.usergroup-fill-all{
+    width: 100%;
+    height: 100%;
+}
+.usergroup-block{
+    padding: 0.5rem;  
+}
+.usergroup-fix{
+    padding: 0;
+    margin: 0;
+}
+.usergroup-borderline{
+    border: 3px lightslategrey solid;
+    height: 20vh;
+}
+.usergroup-color-black{
+    color: black;
+}
+.usergroup-color-grey{
+    color: lightslategrey;
+}
+.usergroup-center-text{
+    width: 100%;
+    height: 20vh;
+    font-size: 5vh;
+    padding: 8vh;
+    text-align: center;
+}
+.ng2-smart-filters{
+    display: none;
+}
+.usergroup-overflow-y{
+    overflow-y: auto;
+}
+.float-right{
+    float: right !important;
+}
+.float-left{
+    float: left !important;
+}
+.card-title {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    color: #000000;
+}
+.usergroup-border{
+    border: 1px lightslategrey solid;
+    border-radius: 0.25rem;
+}
+.panel-default{
+    background: white;
+    .card-header{
+        background-color:white !important;
+    }
+}
+.al-content {
+    padding: 0px 0px 0 0px !important;
+    background-color: lightgray;
+}

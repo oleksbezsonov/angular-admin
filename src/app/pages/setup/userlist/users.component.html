@@ -1,0 +1,199 @@
+<div class="row content-header">
+  <div class="col-lg-9 col-md-9 col-sm-9">
+    <h1>User Management</h1>
+    <h4>Users & Groups</h4>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3 btn_box">
+    <button class="btn btn-info" (click)='onImportUser()'>IMPORT</button>
+    <button class="btn btn-info">CREATE USER</button>
+  </div>
+</div>
+
+<div class="widgets">
+  <div class="row content-body">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Users</h3>
+        </div>
+        <div class="card-body">
+          <div class="search-tool row">
+            <div class="col-sm-1 col-md-1 col-lg-1">
+              <button class="btn btn-info btn-icon" type="button"><i class="ion-android-download"></i></button>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <div class="label_date">
+                Created After
+              </div>
+              <sample-date-picker-normal class="green_cal"></sample-date-picker-normal>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 search-box">
+              <div class="input-group">
+                <input class="form-control with-info-addon" placeholder="Search for..." type="text">
+                <span class="input-group-btn">
+                    <button class="btn btn-info" type="button">Go</button>
+                </span>
+              </div>  
+            </div>        
+          </div>
+          <div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Title</th>
+                  <th>Email</th>
+                  <th>Role</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><div class="ellipse_A">A</div></td>
+                  <td><a routerLink="#">Admin User</a></td>
+                  <td>Service Team Admin</td>
+                  <td>j.smith@gmail.com</td>
+                  <td><button class="btn btn-xs btn-success">Origin</button></td>
+                  <td>
+                    <button class="btn btn-xs btn-info" (click)="lgModal.show()"><i class="ion-edit"></i></button>
+                    <button class="btn btn-xs btn-danger"><i class="ion-ionic"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><div class="ellipse_A">A</div></td>
+                  <td><a routerLink="#">Admin User</a></td>
+                  <td>Service Team Admin</td>
+                  <td>j.smith@gmail.com</td>
+                  <td><button class="btn btn-xs btn-danger">Admin</button></td>
+                  <td>
+                    <button class="btn btn-xs btn-info" (click)="lgModal.show()"><i class="ion-edit"></i></button>
+                    <button class="btn btn-xs btn-danger"><i class="ion-ionic"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><div class="ellipse_A">A</div></td>
+                  <td><a routerLink="#">Admin User</a></td>
+                  <td>Service Team Admin</td>
+                  <td>j.smith@gmail.com</td>
+                  <td><button class="btn btn-xs btn-danger">Admin</button></td>
+                  <td>
+                    <button class="btn btn-xs btn-info" (click)="lgModal.show()"><i class="ion-edit"></i></button>
+                    <button class="btn btn-xs btn-danger"><i class="ion-ionic"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><div class="ellipse_A">A</div></td>
+                  <td><a routerLink="#">Admin User</a></td>
+                  <td>Service Team Admin</td>
+                  <td>j.smith@gmail.com</td>
+                  <td><button class="btn btn-xs btn-danger">Admin</button></td>
+                  <td>
+                    <button class="btn btn-xs btn-info" (click)="lgModal.show()"><i class="ion-edit"></i></button>
+                    <button class="btn btn-xs btn-danger"><i class="ion-ionic"></i></button>
+                  </td>
+                </tr>              
+              </tbody>
+            </table>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+            </div>
+            <div class="pagination_box">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" routerLink="#">Prev</a></li>
+                <li class="page-item active"><a class="page-link" routerLink="#">1</a></li>
+                <li class="page-item"><a class="page-link" routerLink="#">2</a></li>
+                <li class="page-item"><a class="page-link" routerLink="#">3</a></li>
+                <li class="page-item"><a class="page-link" routerLink="#">4</a></li>
+                <li class="page-item"><a class="page-link" routerLink="#">5</a></li>
+                <li class="page-item"><a class="page-link" routerLink="#">Next</a></li>
+              </ul>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Large modal -->
+<div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" (click)="lgModal.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Edit User</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="photo_content">
+              <img class="circle_photo" src="assets/img/app/profile/Nasta.png">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="company">Name</label>
+              <input class="form-control" id="name" value="John Smith" type="text">
+            </div>
+            <div class="form-group">
+              <label for="company">Email</label>
+              <input class="form-control" id="email" value="j.smith@gmail.com" type="text">
+            </div>             
+            <div class="form-group">
+              <label for="company">Password</label>
+              <input class="form-control" id="password" value="" type="text">
+            </div>
+            <div class="form-group">
+              <label for="company">Address</label>
+              <input class="form-control" id="address" value="" type="text">
+            </div>   
+            <div class="form-group">
+              <label for="company">Address 2</label>
+              <input class="form-control" id="address2" value="" type="text">
+            </div>                   
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="company">Username</label>
+              <input class="form-control" id="username" value="jsmith32" type="text">
+            </div>
+            <div class="form-group">
+              <label for="company">Title</label>
+              <input class="form-control" id="title" value="Field Tech" type="text">
+            </div>
+            <div class="form-group">
+              <label for="company">City</label>
+              <input class="form-control" id="city" value="" type="text">
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="form-group">
+                  <label for="company">Sate</label>
+                  <input class="form-control" id="sate" value="" type="text">
+                </div>
+              </div>
+              <div  class="col-lg-6 col-md-6 col-sm-6">
+                <div class="form-group">
+                  <label for="company">Zip</label>
+                  <input class="form-control" id="zip" value="" type="text">
+                </div>            
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="company">Phone</label>
+              <input class="form-control" id="phone" value="" type="text">
+            </div>            
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-success" (click)="lgModal.hide()">CANCEL</button>
+        <button class="btn btn-info" (click)="lgModal.hide()">SAVE</button>
+      </div>
+    </div>
+  </div>
+</div>

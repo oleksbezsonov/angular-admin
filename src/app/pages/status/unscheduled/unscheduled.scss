@@ -1,0 +1,166 @@
+@import "../../../theme/sass/conf/conf";
+
+.animated.fadeIn {
+  background: #d9d9d9; 
+}
+
+.ct-area {
+  fill-opacity: .5;
+}
+
+.ct-label{
+  color: $default-text;
+  opacity: 0.9;
+  fill: $default-text;
+}
+
+.ct-chart .ct-label{
+  font-size: 1em;
+}
+
+.ct-chart svg{
+  width: 100%;
+  display: block;
+}
+
+.ct-series-a {
+  .ct-bar,  .ct-line, .ct-point, .ct-slice-donut, .ct-slice-pie {
+    stroke: $primary;
+  }
+  .ct-slice-pie, .ct-area{
+    fill: $primary;
+  }
+}
+
+.ct-series-b {
+  .ct-bar,  .ct-line, .ct-point, .ct-slice-donut, .ct-slice-pie {
+    stroke: $success;
+  }
+  .ct-slice-pie, .ct-area{
+    fill: $success;
+  }
+}
+
+.ct-series-c {
+  .ct-bar,  .ct-line, .ct-point, .ct-slice-donut, .ct-slice-pie {
+    stroke: $danger;
+    
+  }
+  .ct-slice-pie, .ct-area{
+    fill: $danger;
+  }
+}
+
+.ct-series-d {
+  .ct-bar,  .ct-line, .ct-point, .ct-slice-donut, .ct-slice-pie {
+    stroke: $warning;
+  }
+  .ct-slice-pie, .ct-area{
+    fill: $warning;
+  }
+
+}
+
+.ct-series-e {
+  .ct-bar,  .ct-line, .ct-point, .ct-slice-donut, .ct-slice-pie {
+    stroke: $info;
+  }
+  .ct-slice-pie, .ct-area{
+    fill: $info;
+  }
+}
+
+.stacked-bar .ct-bar{
+  stroke-width: 30px;
+}
+.card{
+  color:black !important;
+}
+.card-header-second{
+  border-bottom: 1px solid #dddddd;
+}
+
+.card-outline-third{
+  padding-left:0px;
+  background-color:white;
+}
+.card-container{
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+.input-group {
+  margin-bottom: 1rem;
+}
+.float-right{
+  float: right !important;
+}
+.bottom-line{
+  border-bottom:1px solid white;
+  padding-bottom:15px;
+}
+.chile-bottom-line{
+  border-bottom:1px solid #dddddd; 
+  padding-top:15px;
+  padding-bottom:5px;
+}
+.child-padding{
+  padding-bottom:15px;
+  padding-top:15px;
+}
+.child-padding2{
+  padding-top:15px;
+  padding-bottom:5px;
+}
+.title-block{
+    margin: -7px -40px;
+    width: calc(100% + 80px);
+}
+.padding{
+  margin-top:10px;
+}
+.color-yellow{
+  color:yellow;
+}
+.black{
+  color: black !important;
+}
+.grey{
+  color:grey !important;
+}
+.blue{
+  color:blue;
+}
+.red{
+  color:red;
+}
+.green{
+  color:green;
+}
+.form-control, #ccmonth{
+   border:1px solid #dddddd;
+  border-radius: 4px;
+  color:black;
+}
+.accordion-title-block{
+  height:50px;
+  background-color:lightgrey;
+}
+.card-header, .card-footer {
+  color: $content-text;
+  border-bottom: 44px;
+  height: 44px;
+  font-size: 16px;
+  $vertical-padding: (44px - 16px) / 2;
+  padding: $vertical-padding 22px;
+  background-color: pink ;
+  opacity: 0.5;
+}
+.row p {
+  font-size:80%;
+}
+.calendar-start  .mydp .icon-mydpcalendar{
+  color:green;
+}
+.calendar-end .mydp .icon-mydpcalendarr{
+  color:red;
+}

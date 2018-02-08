@@ -1,0 +1,107 @@
+.animated.fadeIn {
+    padding: 0px;    
+}
+
+.record-requset-pic{
+  width: 100%;
+  height: 100%;
+  img{
+        margin-left: -1.2rem;
+        margin-top: -0.8rem;
+        width: calc(100% + 2.4rem);
+  }   
+}
+.record-requset-pic-small{
+    width: 100%;
+    height: 100%;
+    img{
+        margin-left: -0.2rem;
+        margin-top: -0.2rem;
+        width: calc(100% + 1.5rem);
+    } 
+}
+.record-color-light-blue{
+  color: #0FBCD0;
+}
+.record-block{
+  padding: 0.5rem;
+}
+.record-spacing-small{
+  width: 100%;
+  height: 1vh;
+}
+.record-fix{
+    padding: 0;
+    margin: 0;
+}
+.record-color-black{
+  color: #000000;
+}
+.record-bottom-line{    
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.record-color-light-grey{
+   color: lightslategrey;
+}
+.record-badge {
+    display: inline-block;
+    padding: 0.35em 0.5em;
+    border-radius: 0.25rem;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+.record-badge-warning {
+    background-color: #f8cb00;
+}
+.record-badge-warning-light {
+    background-color: #c6cb00;
+}
+.record-badge-error {
+    background-color: #CC0000;
+}
+.record-badge-normal {
+    background-color: #48BAFF;
+}
+.record-badge-complete {
+    background-color: #54D279;
+}
+.record-hide-tag{
+    display: none;
+}
+.float-right{
+    float: right !important;
+}
+.float-left{
+    float: left !important;
+}
+.card-title {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    color: #000000;
+}
+.panel-default{
+    background: white;
+    .card-header{
+        background-color:white !important;
+    }
+}
+.title-block{
+    margin: -7px -40px;
+    width: calc(100% + 80px);
+}
+.al-content {
+    padding: 0px 0px 0 0px !important;
+    background-color: lightgray;
+}
+
+.btn-with-icon i {
+    margin-right: 0px;
+    font-size: 25px;
+}

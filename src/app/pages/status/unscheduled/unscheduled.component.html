@@ -1,0 +1,1971 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 title-block">
+      <div class="card card-outline-third">
+        <div class="card-header-second">
+          <div class="card-container"><br>
+             <span class="black"><h1>Request & Truck Schedule</h1><br><h4>pending</h4></span>
+          </div>
+        </div>
+        <div class="card-block">
+          <div class="row">
+            <div class=" col-lg-2 col-md-2 ">
+              <select class="form-control" id="ccmonth">
+                <option>All</option>
+                <option>one</option>
+                <option>two</option>
+                <option>three</option>
+              </select>
+            </div>
+            <div class="col-lg-6 col-md-6 ">
+              <div class="col-lg-5 col-md-5 calendar-start">
+                 <sample-date-picker-normal></sample-date-picker-normal>
+              </div>
+              <div class="col-lg-1 col-md-1 padding"><i class="ion-minus-round black"></i></div>
+              <div class="col-lg-5 col-md-5 calendar-end">
+                 <sample-date-picker-normal ></sample-date-picker-normal>
+              </div>
+            </div>
+            <div class="col-lg-1 col-md-1 "></div>
+            <div class="col-lg-3 col-md-3 ">
+              <div class="input-group">
+                <input type="text" class="form-control black" placeholder="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary">
+                    GO
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-md-6" style="background-color:white;height:60px;margin:-16px -40px;">
+      <div class="row">
+        <div class="col-lg-5 col-md-5">
+          <h4 style="margin-top:25px;padding-left:10px;" class="black">Expidited Requests</h4>
+        </div>
+        <div class="col-lg-2 col-md-2"> <span class="grey" style="float:right;margin-top:25px;">Sort:</span></div>
+        <div class="col-lg-5 col-md-5">
+          <select class="form-control" id="ccmonth" style="margin-top:10px">
+                <option>Due Date</option>
+                <option>Due Week</option>
+                <option>Due Month</option>
+                <option>Due Year</option>
+              </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6" style="background-color:white;height:60px;margin:-16px;float:right;">
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <h4 style="margin-top:25px;" class="black">Standard Requests</h4>
+        </div>
+        <div class="col-lg-3 col-md-3"> <span class="grey" style="float:right;margin-top:25px;">Sort:</span></div>
+        <div class="col-lg-5 col-md-5">
+          <select class="form-control" id="ccmonth" style="margin-top:10px">
+            <option>Due Date</option>
+            <option>Due Week</option>
+            <option>Due Month</option>
+            <option>Due Year</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row title-block">
+    <div class="col-lg-6 col-md-6">
+      <div class="accordion" style="margin-top:30px;width:95%;font-size:80%">
+          <accordion>
+            <!--first item-->
+            <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+            <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+            <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+            <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+          </accordion> 
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <div class="accordion" style="margin:30px 10px;width:98%;font-size:80%">
+          <accordion>
+            <!--first item-->
+            <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+             <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+             <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+             <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+             <i class="fa fa-lg float-right card-header fa-chevron-up black"></i>
+            <accordion-group  heading="Feb 1,2017@ 7:00 AM">
+              <div class="row accordion-title-block">
+                <div class="col-lg-4 col-md-4  black">
+                <span class="black"> <p style="margin-top:15px;"> Bill of Lading Name/# </span>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-2 col-md-2" style="margin-top:10px;">
+                  <button class="btn btn-danger" (click)="lgModal.show()">cancel</button>
+                </div>
+                 <div class="col-lg-3 col-md-3" style="margin-top:10px;">
+                  <button class="btn btn-primary">Schedule</button>
+                </div>
+              </div>
+              <div class="row bottom-line"></div>
+              <div class="row" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-wrench grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            
+                              Shipment Name<br>Category<br>#000000
+                            
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">L:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">W:000'</span></div>
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">H:000'</span></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> 000 lbs</span></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">Requires Permit:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black"> NO</span></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          
+                            <a href="#">400 Nationwide Bivd.<br>Columbus,Ohio43215</a>
+                            <br>
+                            <p class="black">|
+                            <a href="#">656 Thurber Dr.W<br>Columbus,Ohio 43215</a>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock green"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                          <span class="black">
+                            Jan.21,2017<br>10:00 AM<br>|
+                          </span>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clock grey"></i></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><span class="black">Jan.21,2017<br>11:00 AM</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row child-padding">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-document-text red"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.pdf</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                      <div class="row">
+                          <div class="col-lg-1 col-md-1 col-sm-1"><i class="ion-clipboard grey"></i></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><a href="#">File Name.jpg</a></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                          <div class="col-lg-8 col-md-8 col-sm-8"><span class="grey">2-13-17 &nbsp;2:45pm</span></div>
+                          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                  <div class="row chile-bottom-line">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <a href="#">Towing &nbsp; Company &nbsp; Name &nbsp; 4.7 &nbsp;</a> 
+                        <rating style="color:yellowgreen;" [(ngModel)]="_rate1" max="{{_max1}}" stateOn="ion-android-star" stateOff="ion-android-star-outline" class="rating">
+                        </rating>
+                      
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <span class="black"><p class="grey">Driver :John Smith</span>
+                    </div>
+                  </div>
+                  <div class="row child-padding2">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="fa fa fa-automobile grey"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7"><span class="black">2010 Make Model#000000<br>Ohio</span></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><br><span class="black">Double Drop Deck Type</span></div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Empty Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                          <div class="row">
+                            <span class="black">
+                              <p class="grey">Max Weight : &nbsp; &nbsp; 1,000 lbs
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2"><i class="ion-pin blue"></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="row"><span class="grey">Home Location:</span></div>
+                          <div class="row"><a href="#">60 Cleveland Ave.Columbus, Ohio 43215</a></div>                 
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Axels:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">6</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tires/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">2</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">Tire Width/Axel:</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="black">32"</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><span class="grey">lbs/Axel:</span></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6"><span class="black">16,666.5</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Between Axel:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">4'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Width:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Deck Height:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="grey">Well Length:</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4"><p class="black">000'</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </accordion-group>
+          </accordion> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Large modal -->
+<div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content" >
+      <div class="modal-header"style="background-color:white;">
+        <button class="close" (click)="lgModal.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title black" style="text-align:center;">Cancel Request</h4>
+      </div>
+      <div class="modal-body black" style="background-color:white;">
+       <h5>Reason for Rejecting Request</h5>
+       <input type="text" style="width:100%;height:100px;"/>
+      </div>
+      <div class="modal-footer" style="background-color:white;">
+        <button class="btn btn-primary confirm-btn black" (click)="lgModal.hide()">GO BACK</button>
+        <button class="btn btn-danger confirm-btn black" (click)="lgModal.hide()">CANCEL</button>
+      </div>
+    </div>
+  </div>
+</div>
+
